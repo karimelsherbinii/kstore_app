@@ -1,0 +1,131 @@
+name: kstore
+description: "Delivery App."
+
+publish_to: "none"
+
+version: 1.0.12+13
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  animated_emoji: ^2.0.0
+  auto_route: null
+  bloc: ^8.1.0
+  blur: ^3.1.0
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  device_preview: ^1.1.0
+  dio: ^4.0.6
+  equatable: ^2.0.5
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.8
+  flutter:
+    sdk: flutter
+  flutter_background_service: ^5.0.1
+  flutter_bloc: ^8.1.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_local_notifications: ^16.3.0
+  flutter_native_splash: ^2.3.9
+  flutter_staggered_animations: ^1.1.1
+  # flutter_stripe: ^10.0.0
+  flutter_svg: ^1.1.5
+  fluttericon: ^2.0.0
+  fluttertoast: ^8.1.1
+  font_awesome_flutter: ^10.2.1
+  get_it: ^7.2.0
+  internet_connection_checker: ^1.0.0+1
+  intl: ^0.18.1
+  json_annotation: ^4.7.0
+  path_provider: ^2.0.11
+  pull_to_refresh: ^2.0.0
+  shared_preferences: ^2.0.15
+  simple_animations: ^5.0.0+2
+  smooth_page_indicator: ^1.1.0
+  supercharged: ^2.1.1
+  timelines: ^0.1.0
+  transparent_image: ^2.0.1
+  url_launcher: ^6.1.14
+  validators: ^3.0.0
+  webview_flutter: ^4.4.4
+
+dev_dependencies:
+  auto_route_generator: null
+  build_runner: null
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+# flutter pub run flutter_launcher_icons:main
+# flutter create flutter_native_splash_issue
+flutter_icons:
+  android: "ic_launcher"
+  image_path_android: "assets/images/app_icon.png"
+  image_path_ios: "assets/images/app_icon.png"
+  remove_alpha_ios: true
+  ios: true
+
+flutter_native_splash:
+  background_image: assets/images/native-splash.png
+  android: true
+  android_gravity: fill
+  #flutter pub run flutter_native_splash:create
+  #flutter pub run flutter_native_splash:remove
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lang/ar.json
+    - lang/en.json
+    - assets/icons/
+    - assets/fonts/
+    - assets/images/
+    - assets/images/svg/
+    - assets/images/splash1.png
+    - assets/images/splash2.png
+    - assets/images/calendar.png
+    - assets/images/credit_card.png
+    - assets/images/empty.jpg
+    - assets/images/white_image.PNG
+    - assets/icons/png/
+
+  fonts:
+    - family: Mulish
+      fonts:
+        - asset: assets/fonts/Mulish-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Mulish-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Mulish-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Mulish-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Mulish-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Mulish-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Mulish-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Mulish-SemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
